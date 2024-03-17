@@ -1,6 +1,6 @@
 # SKN Reactive Spring Boot Security Configuration Library
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-mail)](https://central.sonatype.com/artifact/best.skn/skn-spring-mail) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-mail/1.2.3/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-mail/1.2.3) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.1.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.1.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -8,9 +8,9 @@
 
 ### Read the Javadoc for the main Service APIs
 
-- [CsrfService API](https://javadoc.io/doc/best.skn/skn-spring-mail/latest/best/skn/mail/services/MailSenderService.html)
-- [PrincipalService API](https://javadoc.io/doc/best.skn/skn-spring-mail/latest/best/skn/mail/services/MailSenderService.html)
-- [SessionService API](https://javadoc.io/doc/best.skn/skn-spring-mail/latest/best/skn/mail/services/MailSenderService.html)
+- [CsrfService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/csrf/CsrfService.html)
+- [PrincipalService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/principal/PrincipalService.html)
+- [SessionService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/session/SessionService.html)
 
 &nbsp;
 
@@ -223,7 +223,7 @@
 > >         - /api/auth/**
 > > ```
 
-### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-spring-mail)
+### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-spring-security)
 
 &nbsp;
 
