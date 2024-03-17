@@ -2,7 +2,7 @@
  * Security Services Session Package
  *
  * @author SKN
- * @version 1.0.0
+ * @version 1.1.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Trina, Logno, Atoshi and My Parents
