@@ -85,7 +85,13 @@
 > import best.skn.security.configurations.*;
 >
 > @Configuration
-> @Import({ CsrfConfiguration.class, PrincipalConfiguration.class, SessionConfiguration.class })
+> @Import(
+>   {
+>     CsrfConfiguration.class,
+>     PrincipalConfiguration.class,
+>     SessionConfiguration.class
+>   }
+> )
 > public class SecurityInfoConfiguration {}
 > ```
 
