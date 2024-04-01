@@ -9,10 +9,10 @@ import reactor.core.publisher.Mono;
  * CSRF Service Interface
  *
  * @author SKN
- * @version 1.1.0
+ * @version 1.1.1
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
- * @dedicated.to Trina, Logno, Atoshi and My Parents
+ * @dedicated.to Logno, Atoshi and My Parents
  */
 @Component
 public interface CsrfInterface {
