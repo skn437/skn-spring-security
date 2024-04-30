@@ -18,8 +18,8 @@ import org.springframework.stereotype.Component;
  *  <p>(1) Origins: it's an array of String under 'skn.security.cors.origins'. It holds all the addresses for the allowed origins.</p>
  * </div>
  *
- * @author SKN
- * @version 1.1.1
+ * @author SKN Shukhan
+ * @version 1.2.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents

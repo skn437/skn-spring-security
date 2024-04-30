@@ -16,8 +16,8 @@ import org.springframework.stereotype.Component;
  *  <p>(1) Success Redirection URL: it's a String under 'skn.security.oauth2.client.success.redirect'. It holds the successful login redirection page address. When a user is successfully logged in, he/she will be redirected to this address.</p>
  * </div>
  *
- * @author SKN
- * @version 1.1.1
+ * @author SKN Shukhan
+ * @version 1.2.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents

@@ -16,8 +16,8 @@ import org.springframework.stereotype.Component;
  *  <p>(1) Login URL: it's a String under 'skn.security.login.url'. It holds the address for the login page url where users will be prompted to login.</p>
  * </div>
  *
- * @author SKN
- * @version 1.1.1
+ * @author SKN Shukhan
+ * @version 1.2.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents

@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: SKN Spring Security
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ///////
+            client-secret: ///////
+          github:
+            client-id: ///////
+            client-secret: ///////
+
+skn:
+  security:
+    cors:
+      origins:
+        - http://localhost:3000
+        - http://localhost:5173
+
+    login:
+      url: http://localhost:5173/api/auth/login
+
+    oauth2:
+      client:
+        success:
+          redirect: http://localhost:5173/api/auth/status
+
+    authorize:
+      exchanges:
+        - /
+        - /skn/**
+        - /api/auth/**
+        - /api/mail/**
