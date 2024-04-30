@@ -1,6 +1,6 @@
 # SKN Reactive Spring Boot Security Configuration Library
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.1.1/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.1.1) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.2.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.2.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -8,9 +8,9 @@
 
 ### Read the Javadoc for the main Service APIs
 
-- [CsrfService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/csrf/CsrfService.html)
-- [PrincipalService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/principal/PrincipalService.html)
-- [SessionService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/session/SessionService.html)
+- [CsrfService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/CsrfService.html)
+- [PrincipalService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/PrincipalService.html)
+- [SessionService API](https://javadoc.io/static/best.skn/skn-spring-security/1.1.0/best/skn/security/services/SessionService.html)
 
 &nbsp;
 
@@ -53,7 +53,7 @@
 
 - 💀 Minimum Java Version: `21`
 - 💀 Minimum Maven Version: `3.9.6`
-- 💀 Minimum Spring Boot Version: `3.2.4`
+- 💀 Minimum Spring Boot Version: `3.2.5`
 - 💀 Spring Web Flux (Reactive Spring Boot)
 - 💀 Spring Security
 - 💀 Spring Session
@@ -69,7 +69,7 @@
 > <dependency>
 >   <groupId>best.skn</groupId>
 >   <artifactId>skn-spring-security</artifactId>
->   <version>1.1.1</version>
+>   <version>1.2.0</version>
 > </dependency>
 > ```
 
@@ -141,7 +141,7 @@
 > >     cors:
 > >       origins:
 > >         - http://localhost:3000
-> >         - http://localhost:4000
+> >         - http://localhost:5173
 > > ```
 >
 > #### (2) Login Configuration: When setting your custom login url, you have to give a String as a parameter in Spring Security, but with this library you can externalize it
@@ -168,7 +168,7 @@
 > > skn:
 > >   security:
 > >     login:
-> >       url: http://localhost:3000/api/auth/login
+> >       url: http://localhost:5173/api/auth/login
 > > ```
 >
 > #### (3) OAuth2 Configuration: When setting your custom successful login redirection url for OAuth2, you have to give a String as a parameter in Spring Security, but with this library you can externalize it
@@ -197,7 +197,7 @@
 > >     oauth2:
 > >       client:
 > >         success:
-> >           redirect: http://localhost:3000/api/auth/status
+> >           redirect: http://localhost:5173/api/auth/status
 > > ```
 >
 > #### (4) Security Configuration: When setting your authenticated exchanges, you have to give a list of String as a parameter in Spring Security, but with this library you can externalize it
@@ -226,7 +226,9 @@
 > >     authorize:
 > >       exchanges:
 > >         - /
+> >         - /skn/**
 > >         - /api/auth/**
+> >         - /api/mail/**
 > > ```
 
 ### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-spring-security)

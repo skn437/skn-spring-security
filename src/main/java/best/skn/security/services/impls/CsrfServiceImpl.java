@@ -1,28 +1,24 @@
-package best.skn.security.services.csrf;
+package best.skn.security.services.impls;
 
+//? Java::Source
+import best.skn.security.services.CsrfService;
 //? Java::Library
 import best.skn.utils.message.Message;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 import org.springframework.security.web.server.csrf.CsrfToken;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 /**
- * CSRF Service Class
+ * CSRF Service Implementation Class
  *
- * @author SKN
- * @version 1.1.1
- * @since 2024-03-16
+ * @author SKN Shukhan
+ * @version 1.2.0
+ * @since 2024-04-30
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
  */
 @Service
-@NoArgsConstructor
-@Getter
-@Setter
-public class CsrfService implements CsrfInterface {
+public class CsrfServiceImpl implements CsrfService {
 
   @Override
   public Mono<CsrfToken> csrfRouteGetRequest(CsrfToken token) throws Exception {
