@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
  * CSRF Service Implementation Class
  *
  * @author SKN Shukhan
- * @version 1.2.0
+ * @version 1.2.1
  * @since 2024-04-30
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents

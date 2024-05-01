@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * CSRF configuration class for auto-configuring CSRF service
  *
  * @author SKN Shukhan
- * @version 1.2.0
+ * @version 1.2.1
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
