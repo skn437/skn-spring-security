@@ -241,5 +241,13 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. I can't thank them enough for always treasuring me a lot. I am lucky that I met with these two amazing ladies. They have two special places in my heart and no other girl can ever replace them.
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life.
 - 💯`My Parents`: The greatest treasures of my life ever.
+
+&nbsp;
+
+## **_License:_**
+
+Copyright (C) 2024 SKN Shukhan
+
+Licensed under the Apache License, Version 2.0
