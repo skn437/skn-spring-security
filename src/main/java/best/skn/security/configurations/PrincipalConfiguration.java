@@ -1,9 +1,7 @@
 package best.skn.security.configurations;
 
-//? Java::Source
 import best.skn.security.services.PrincipalService;
 import best.skn.security.services.impls.PrincipalServiceImpl;
-//? Java::Library
 import best.skn.utils.message.Message;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * Principal configuration class for auto-configuring principal service
  *
  * @author SKN Shukhan
- * @version 1.2.1
+ * @version 1.3.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
@@ -30,9 +28,7 @@ public class PrincipalConfiguration {
   PrincipalService principalService() {
     PrincipalService principalService = new PrincipalServiceImpl();
 
-    System.out.printf(
-      Message.successConsole("Principal Configuration Initiated Successfully!")
-    );
+    System.out.printf(Message.successConsole("Principal Configuration Initiated Successfully!"));
 
     return principalService;
   }

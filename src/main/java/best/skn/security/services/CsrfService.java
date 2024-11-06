@@ -1,6 +1,5 @@
 package best.skn.security.services;
 
-//? Java::Library
 import org.springframework.security.web.server.csrf.CsrfToken;
 import reactor.core.publisher.Mono;
 
@@ -8,7 +7,7 @@ import reactor.core.publisher.Mono;
  * CSRF Service Interface
  *
  * @author SKN Shukhan
- * @version 1.2.1
+ * @version 1.3.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents

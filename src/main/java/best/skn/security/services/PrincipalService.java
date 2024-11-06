@@ -1,6 +1,5 @@
 package best.skn.security.services;
 
-//? Java::Library
 import java.security.Principal;
 import reactor.core.publisher.Mono;
 
@@ -8,7 +7,7 @@ import reactor.core.publisher.Mono;
  * Principal Service Interface
  *
  * @author SKN Shukhan
- * @version 1.2.1
+ * @version 1.3.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
@@ -22,6 +21,5 @@ public interface PrincipalService {
    * @throws Exception an exception is thrown if Principal GET request fails
    * @since v1.0.0
    */
-  public Mono<Principal> principalRouteGetRequest(Principal principal)
-    throws Exception;
+  public Mono<Principal> principalRouteGetRequest(Principal principal) throws Exception;
 }
