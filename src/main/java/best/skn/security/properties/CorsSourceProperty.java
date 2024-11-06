@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 /**
  * External CORS Configuration Property Class
@@ -22,7 +21,6 @@ import org.springframework.stereotype.Component;
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
  */
-@Component
 @ConfigurationProperties("skn.security.cors")
 @Data
 @AllArgsConstructor
