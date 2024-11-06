@@ -4,7 +4,7 @@
 
 > Java
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.2.1/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.2.1) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.3.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.3.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -56,8 +56,7 @@
 ## **_Requirements:_**
 
 - 💀 Minimum Java Version: `21`
-- 💀 Minimum Maven Version: `3.9.6`
-- 💀 Minimum Spring Boot Version: `3.2.5`
+- 💀 Minimum Spring Boot Version: `3.3.5`
 - 💀 Spring Web Flux (Reactive Spring Boot)
 - 💀 Spring Security
 - 💀 Spring Session
@@ -73,14 +72,14 @@
 > <dependency>
 >   <groupId>best.skn</groupId>
 >   <artifactId>skn-spring-security</artifactId>
->   <version>1.2.1</version>
+>   <version>1.3.0</version>
 > </dependency>
 > ```
 
-### Write the following in the terminal
+### For `Gradle`, inside `dependencies` block of `build.gradle.kts`, copy the following
 
-> ```zsh
-> mvn install
+> ```kotlin-script
+> implementation("best.skn:skn-spring-security:1.3.0")
 > ```
 
 ### First create a configuration class
@@ -235,13 +234,11 @@
 > >         - /api/mail/**
 > > ```
 
-### For instructions for `Gradle` & others: Visit [Maven Central](https://central.sonatype.com/artifact/best.skn/skn-spring-security)
-
 &nbsp;
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life.
+- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
 - 💯`My Parents`: The greatest treasures of my life ever.
 
 &nbsp;

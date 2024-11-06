@@ -1,10 +1,8 @@
 package best.skn.security.properties;
 
-//? Java::Library
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -17,17 +15,16 @@ import org.springframework.stereotype.Component;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.2.1
+ * @version 1.3.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
  */
 @Component
 @ConfigurationProperties("skn.security.authorize")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
 public class SecurityProperty {
 
   /**
