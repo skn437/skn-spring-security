@@ -4,7 +4,7 @@
 
 > Java
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.3.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.3.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.3.1/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.3.1) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -72,14 +72,14 @@
 > <dependency>
 >   <groupId>best.skn</groupId>
 >   <artifactId>skn-spring-security</artifactId>
->   <version>1.3.0</version>
+>   <version>1.3.1</version>
 > </dependency>
 > ```
 
 ### For `Gradle`, inside `dependencies` block of `build.gradle.kts`, copy the following
 
 > ```kotlin-script
-> implementation("best.skn:skn-spring-security:1.3.0")
+> implementation("best.skn:skn-spring-security:1.3.1")
 > ```
 
 ### First create a configuration class
