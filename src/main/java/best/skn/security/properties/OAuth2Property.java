@@ -1,8 +1,5 @@
 package best.skn.security.properties;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -22,9 +19,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties("skn.security.oauth2.client.success")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class OAuth2Property {
 
   /**
@@ -33,4 +27,16 @@ public class OAuth2Property {
    * @since v1.0.0
    */
   private String redirect;
+
+  OAuth2Property(String redirect) {
+    this.redirect = redirect;
+  }
+
+  public String getRedirect() {
+    return this.redirect;
+  }
+
+  public void setRedirect(String value) {
+    this.redirect = value;
+  }
 }

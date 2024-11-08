@@ -2,9 +2,6 @@ package best.skn.security.properties;
 
 import java.util.Arrays;
 import java.util.List;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -24,9 +21,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties("skn.security.cors")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class CorsSourceProperty {
 
   /**
@@ -35,6 +29,18 @@ public class CorsSourceProperty {
    * @since v1.0.0
    */
   private String[] origins;
+
+  CorsSourceProperty(String[] origins) {
+    this.origins = origins;
+  }
+
+  public String[] getOrigins() {
+    return this.origins;
+  }
+
+  public void setOrigins(String[] value) {
+    this.origins = value;
+  }
 
   /**
    *  a getter method to get a list of CORS allowed origins

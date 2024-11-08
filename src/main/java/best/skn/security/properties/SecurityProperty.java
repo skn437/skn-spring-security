@@ -1,8 +1,5 @@
 package best.skn.security.properties;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -22,9 +19,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties("skn.security.authorize")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class SecurityProperty {
 
   /**
@@ -33,4 +27,16 @@ public class SecurityProperty {
    * @since v1.0.0
    */
   private String[] exchanges;
+
+  SecurityProperty(String[] exchanges) {
+    this.exchanges = exchanges;
+  }
+
+  public String[] getExchanges() {
+    return this.exchanges;
+  }
+
+  public void setExchanges(String[] value) {
+    this.exchanges = value;
+  }
 }

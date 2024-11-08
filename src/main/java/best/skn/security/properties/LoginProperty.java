@@ -1,8 +1,5 @@
 package best.skn.security.properties;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -22,9 +19,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties("skn.security.login")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class LoginProperty {
 
   /**
@@ -33,4 +27,16 @@ public class LoginProperty {
    * @since v1.0.0
    */
   private String url;
+
+  LoginProperty(String url) {
+    this.url = url;
+  }
+
+  public String getUrl() {
+    return this.url;
+  }
+
+  public void setUrl(String value) {
+    this.url = value;
+  }
 }
