@@ -28,9 +28,11 @@ public class LoginProperty {
    */
   private String url;
 
-  LoginProperty(String url) {
+  public LoginProperty(String url) {
     this.url = url;
   }
+
+  public LoginProperty() {}
 
   public String getUrl() {
     return this.url;

@@ -30,9 +30,11 @@ public class CorsSourceProperty {
    */
   private String[] origins;
 
-  CorsSourceProperty(String[] origins) {
+  public CorsSourceProperty(String[] origins) {
     this.origins = origins;
   }
+
+  public CorsSourceProperty() {}
 
   public String[] getOrigins() {
     return this.origins;

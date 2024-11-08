@@ -28,9 +28,11 @@ public class SecurityProperty {
    */
   private String[] exchanges;
 
-  SecurityProperty(String[] exchanges) {
+  public SecurityProperty(String[] exchanges) {
     this.exchanges = exchanges;
   }
+
+  public SecurityProperty() {}
 
   public String[] getExchanges() {
     return this.exchanges;

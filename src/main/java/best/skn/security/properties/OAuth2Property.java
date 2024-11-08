@@ -28,9 +28,11 @@ public class OAuth2Property {
    */
   private String redirect;
 
-  OAuth2Property(String redirect) {
+  public OAuth2Property(String redirect) {
     this.redirect = redirect;
   }
+
+  public OAuth2Property() {}
 
   public String getRedirect() {
     return this.redirect;
