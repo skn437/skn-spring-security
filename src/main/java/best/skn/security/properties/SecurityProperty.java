@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 /**
  * External Security Configuration Property Class
@@ -14,11 +15,12 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.3.0
+ * @version 1.3.1
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
  */
+@Component
 @ConfigurationProperties("skn.security.authorize")
 @Data
 @AllArgsConstructor
