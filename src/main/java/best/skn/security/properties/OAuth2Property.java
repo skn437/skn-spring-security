@@ -1,8 +1,5 @@
 package best.skn.security.properties;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -15,16 +12,13 @@ import org.springframework.stereotype.Component;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.3.1
+ * @version 1.4.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
  */
 @Component
 @ConfigurationProperties("skn.security.oauth2.client.success")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class OAuth2Property {
 
   /**
@@ -33,4 +27,44 @@ public class OAuth2Property {
    * @since v1.0.0
    */
   private String redirect;
+
+  /**
+   * Public Constructor with all private properties
+   *
+   * @param redirect String
+   *
+   * @since v1.4.0
+   */
+  public OAuth2Property(String redirect) {
+    this.redirect = redirect;
+  }
+
+  /**
+   * Public Constructor with no argument
+   *
+   * @since v1.4.0
+   */
+  public OAuth2Property() {}
+
+  /**
+   * Getter method for `redirect` field
+   *
+   * @return String for `redirect` field
+   *
+   * @since v1.4.0
+   */
+  public String getRedirect() {
+    return this.redirect;
+  }
+
+  /**
+   * Setter method for `redirect` field
+   *
+   * @param value String for `redirect` field
+   *
+   * @since v1.4.0
+   */
+  public void setRedirect(String value) {
+    this.redirect = value;
+  }
 }

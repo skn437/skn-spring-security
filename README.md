@@ -4,7 +4,7 @@
 
 > Java
 
-[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.3.1/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.3.1) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/best.skn/skn-spring-security)](https://central.sonatype.com/artifact/best.skn/skn-spring-security) [![Javadoc](https://javadoc.io/badge2/best.skn/skn-spring-security/1.4.0/javadoc.svg)](https://javadoc.io/doc/best.skn/skn-spring-security/1.4.0) [![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 &nbsp;
 
@@ -72,14 +72,14 @@
 > <dependency>
 >   <groupId>best.skn</groupId>
 >   <artifactId>skn-spring-security</artifactId>
->   <version>1.3.1</version>
+>   <version>1.4.0</version>
 > </dependency>
 > ```
 
 ### For `Gradle`, inside `dependencies` block of `build.gradle.kts`, copy the following
 
 > ```kotlin-script
-> implementation("best.skn:skn-spring-security:1.3.1")
+> implementation("best.skn:skn-spring-security:1.4.0")
 > ```
 
 ### First create a configuration class
@@ -144,7 +144,7 @@
 > >     cors:
 > >       origins:
 > >         - http://localhost:3000
-> >         - http://localhost:5173
+> >         - http://localhost:5000
 > > ```
 >
 > #### (2) Login Configuration: When setting your custom login url, you have to give a String as a parameter in Spring Security, but with this library you can externalize it
@@ -171,7 +171,7 @@
 > > skn:
 > >   security:
 > >     login:
-> >       url: http://localhost:5173/api/auth/login
+> >       url: http://localhost:5000/api/auth/login
 > > ```
 >
 > #### (3) OAuth2 Configuration: When setting your custom successful login redirection url for OAuth2, you have to give a String as a parameter in Spring Security, but with this library you can externalize it
@@ -200,7 +200,7 @@
 > >     oauth2:
 > >       client:
 > >         success:
-> >           redirect: http://localhost:5173/api/auth/status
+> >           redirect: http://localhost:5000/api/auth/status
 > > ```
 >
 > #### (4) Security Configuration: When setting your authenticated exchanges, you have to give a list of String as a parameter in Spring Security, but with this library you can externalize it
