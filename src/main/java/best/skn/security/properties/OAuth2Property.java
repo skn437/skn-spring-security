@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.3.1
+ * @version 1.4.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
@@ -28,16 +28,42 @@ public class OAuth2Property {
    */
   private String redirect;
 
+  /**
+   * Public Constructor with all private properties
+   *
+   * @param redirect String
+   *
+   * @since v1.4.0
+   */
   public OAuth2Property(String redirect) {
     this.redirect = redirect;
   }
 
+  /**
+   * Public Constructor with no argument
+   *
+   * @since v1.4.0
+   */
   public OAuth2Property() {}
 
+  /**
+   * Getter method for `redirect` field
+   *
+   * @return String for `redirect` field
+   *
+   * @since v1.4.0
+   */
   public String getRedirect() {
     return this.redirect;
   }
 
+  /**
+   * Setter method for `redirect` field
+   *
+   * @param value String for `redirect` field
+   *
+   * @since v1.4.0
+   */
   public void setRedirect(String value) {
     this.redirect = value;
   }

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.3.1
+ * @version 1.4.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
@@ -28,16 +28,42 @@ public class SecurityProperty {
    */
   private String[] exchanges;
 
+  /**
+   * Public Constructor with all private properties
+   *
+   * @param exchanges String Array
+   *
+   * @since v1.4.0
+   */
   public SecurityProperty(String[] exchanges) {
     this.exchanges = exchanges;
   }
 
+  /**
+   * Public Constructor with no argument
+   *
+   * @since v1.4.0
+   */
   public SecurityProperty() {}
 
+  /**
+   * Getter method for `exchanges` field
+   *
+   * @return String Array for `exchanges` field
+   *
+   * @since v1.4.0
+   */
   public String[] getExchanges() {
     return this.exchanges;
   }
 
+  /**
+   * Setter method for `exchanges` field
+   *
+   * @param value String Array for `exchanges` field
+   *
+   * @since v1.4.0
+   */
   public void setExchanges(String[] value) {
     this.exchanges = value;
   }

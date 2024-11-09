@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * </div>
  *
  * @author SKN Shukhan
- * @version 1.3.1
+ * @version 1.4.0
  * @since 2024-03-16
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents
@@ -28,16 +28,42 @@ public class LoginProperty {
    */
   private String url;
 
+  /**
+   * Public Constructor with all private properties
+   *
+   * @param url String
+   *
+   * @since v1.4.0
+   */
   public LoginProperty(String url) {
     this.url = url;
   }
 
+  /**
+   * Public Constructor with no argument
+   *
+   * @since v1.4.0
+   */
   public LoginProperty() {}
 
+  /**
+   * Getter method for `url` field
+   *
+   * @return String for `url` field
+   *
+   * @since v1.4.0
+   */
   public String getUrl() {
     return this.url;
   }
 
+  /**
+   * Setter method for `url` field
+   *
+   * @param value String for `url` field
+   *
+   * @since v1.4.0
+   */
   public void setUrl(String value) {
     this.url = value;
   }

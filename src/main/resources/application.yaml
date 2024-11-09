@@ -18,15 +18,15 @@ skn:
     cors:
       origins:
         - http://localhost:3000
-        - http://localhost:5173
+        - http://localhost:5000
 
     login:
-      url: http://localhost:5173/api/auth/login
+      url: http://localhost:5000/api/auth/login
 
     oauth2:
       client:
         success:
-          redirect: http://localhost:5173/api/auth/status
+          redirect: http://localhost:5000/api/auth/status
 
     authorize:
       exchanges:
