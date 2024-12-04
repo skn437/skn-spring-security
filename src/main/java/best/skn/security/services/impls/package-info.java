@@ -2,7 +2,7 @@
  * Security Service Implementation Package
  *
  * @author SKN Shukhan
- * @version 1.4.0
+ * @version 1.5.0
  * @since 2024-04-30
  * @use.case Spring Boot Reactive
  * @dedicated.to Logno, Atoshi and My Parents

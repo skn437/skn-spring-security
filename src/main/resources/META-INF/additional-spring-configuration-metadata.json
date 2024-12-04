@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "skn.security.cors.origins",
+      "type": "java.util.Arrays",
+      "description": "SKN Security External CORS Origins"
+    },
+    {
+      "name": "skn.security.login.url",
+      "type": "java.lang.String",
+      "description": "SKN Security External Login URL"
+    },
+    {
+      "name": "skn.security.oauth2.client.success.redirect",
+      "type": "java.lang.String",
+      "description": "SKN Security External Auth Success Redirection URL"
+    },
+    {
+      "name": "skn.security.authorize.exchanges",
+      "type": "java.util.Arrays",
+      "description": "SKN Security External Authorized Exchanges"
+    }
+  ]
+}
