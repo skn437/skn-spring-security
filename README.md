@@ -1,6 +1,6 @@
 # SKN Reactive Spring Boot Security Configuration Library
 
-<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F05-Spring%20Boot-SSS.svg?alt=media&token=e791da76-75dc-488f-b08b-026c80cb6fa3" alt="java" />
+<img width="150px" src="./public/spring-security.svg" alt="java" />
 
 > Java
 
@@ -236,8 +236,9 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
+- 👩‍🎨`Logno` & 🧛‍♀️`Atoshi`: The two most special ladies of my life. My best wishes will always be with you two.
 - 💯`My Parents`: The greatest treasures of my life ever.
+- 👩`Trina`: The lady who resides deep inside my heart. Our paths got separated, perhaps it was fate and I accepted it. But you are always in each and every moments of my life. May you be healthy and happy always.
 
 &nbsp;
 
